@@ -6,9 +6,17 @@
   "scripts": {
     "test": "node app.js"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "johnny-five": "^0.10.6"
-  }
+  },
+  "engines":{
+    "node": "6.2.1",
+    "npm": "3.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungrykirby/ArduinoTest.git"
+  },
+  "author": "Katsuki"
 }
