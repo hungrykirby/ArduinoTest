@@ -8,9 +8,10 @@
   },
   "license": "ISC",
   "dependencies": {
-    "johnny-five": "^0.10.6"
+    "johnny-five": "^0.10.6",
+    "node-osc": "^2.0.4"
   },
-  "engines":{
+  "engines": {
     "node": "6.2.1",
     "npm": "3.9.3"
   },
