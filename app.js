@@ -42,7 +42,5 @@ board.on("ready", function(){
      oscclient.send('/node/heading', Math.floor(this.heading));
      console.log('raw{x, y, z}', this.raw);
      oscclient.send('/node/raw', this.raw.x, this.raw.y, this.raw.z);
-     //oscclient.send('/node/raw/y', this.raw.y);
-     //oscclient.send('/node/raw/z', this.raw.z);
    });
 });
